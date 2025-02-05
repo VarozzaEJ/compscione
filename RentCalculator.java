@@ -38,7 +38,7 @@ public class RentCalculator implements ActionListener {
 
         panel = new JPanel();
         panel.setBorder(BorderFactory.createEmptyBorder(100, 100, 100, 100));
-        panel.setLayout(new GridLayout(0, 1));
+        panel.setLayout(new GridLayout(0, 2));
         panel.add(label);
         panel.add(spinner);
         panel.add(rentCostLabel);
@@ -58,6 +58,7 @@ public class RentCalculator implements ActionListener {
     } catch(Exception ignored){}
         new RentCalculator();
     }
+    
     @Override
     public void actionPerformed(ActionEvent e) {
         splitRent = totalRentCostJSpinner.getValue().hashCode() / spinner.getValue().hashCode();
