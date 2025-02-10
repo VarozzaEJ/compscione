@@ -10,5 +10,8 @@ public class Average {
         double average = ((variableOne + variableTwo + variableThree) / divisor);
 
         System.out.println("The average of " + variableOne + ", " + variableTwo + ", and " + variableThree +  " is: " + average);
+        
+        System.out.println("He thrusts his fists\n\tagainst" +
+                    " the post\nand still insists\n\the sees the \"ghost\"");
     }
 }
