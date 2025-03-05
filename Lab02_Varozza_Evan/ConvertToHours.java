@@ -18,7 +18,7 @@ public class ConvertToHours {
         remainingSeconds = totalSeconds % NUM_SECONDS_IN_HOUR;
         minutes = remainingSeconds / NUM_SECONDS_IN_MINUTE;
         seconds = remainingSeconds % NUM_SECONDS_IN_MINUTE;
-        fractionalHours = (double) totalSeconds / (double) NUM_SECONDS_IN_HOUR;
+        fractionalHours = (double)totalSeconds / (double) NUM_SECONDS_IN_HOUR;
 
         System.out.println("Total number of seconds entered: " + totalSeconds);
         System.out.println("Hours: " + hours);

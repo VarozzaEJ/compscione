@@ -18,10 +18,6 @@ public class ConvertToSeconds {
 
         Scanner keyboardInput = new Scanner(System.in);
 
-        String title = new String("Java Software Solutions");
-        System.out.println(title);
-
-
         System.out.println("Enter the number of hours, must be greater than or equal to 0.");
         hours = keyboardInput.nextInt();
         
@@ -29,7 +25,7 @@ public class ConvertToSeconds {
         mins = keyboardInput.nextInt();
 
         System.out.println("Enter the number of seconds, must be between 0 and 60.");
-        seconds = keyboardInput.nextInt(); 
+        seconds = keyboardInput.nextInt();
 
 
 
